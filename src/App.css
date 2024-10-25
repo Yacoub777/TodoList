@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.app {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+  
+.dark-mode {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+/* Header styling */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+}
+
+.app-logo {
+    height: 50px;
+}
+
+.app-title {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.dark-mode-toggle {
+    background-color: rgba(255, 255, 255, 0.2); /* Subtle transparent background */
+    border: 2px solid white;  /* A solid white border for better visibility */
+    color: white;
+    padding: 10px 15px; /* Added padding for larger clickable area */
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded button for a modern look */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.dark-mode-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Slightly brighter on hover */
+    transform: rotate(20deg); /* Icon tilts slightly on hover */
+}
+
+.dark-mode-toggle:active {
+    transform: scale(0.95); /* Button scales down when clicked */
+}
+
+/* Dark mode specific style */
+.dark-mode .dark-mode-toggle {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+}
+
+.dark-mode .dark-mode-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Main app area styling */
+.app-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Task columns */
+.task-column {
+    flex: 1; /* Allows the columns to grow equally */
+    margin: 0 10px;
+    flex-basis: 0; /* Ensures columns shrink or grow at the same rate */
+    max-width: 33%; /* Set a max width to prevent columns from growing too wide */
+    min-width: 30%; /* Set a min width to ensure equal spacing */
+}
+
+
+.task-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.task-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* New Footer styling */
+.app-footer {
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f5f5f5;
+}
+/* Task input field styling */
+.task-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; /* Adjust the font size */
+    padding: 10px; /* Add some padding for better spacing */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    border: 1px solid #ccc; /* Border color */
+    outline: none; /* Remove the default outline */
+    width: 100%; /* Make the input take full width */
+    transition: border-color 0.3s ease; /* Smooth transition for border color on focus */
+}
+
+/* Change border color on focus */
+.task-input:focus {
+    border-color: #007bff; /* Highlight border when focused */
+}
+
+/* Dark mode styles */
+.dark-mode .task-card {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .task-input {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+.dark-mode .add-task-button {
+    background-color: #0f9b8e;
+}
+
+.dark-mode .app-footer {
+    background-color: #111;
+    color: #f5f5f5;
+}
