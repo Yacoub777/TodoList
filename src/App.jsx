@@ -74,9 +74,27 @@ const App = () => {
             <a href="/privacy">Privacy Policy</a>
           </div>
           <div className="social-icons">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mostafa-yacoub-2b80b125a?"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/Yacoub777"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
           </div>
         </div>
       </footer>
