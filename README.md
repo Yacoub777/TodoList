@@ -5,7 +5,7 @@ Here's a sample `README.md` for your to-do list project on GitHub:
 
 A simple and interactive to-do list web application where users can add, track, and categorize tasks. It allows users to manage their tasks in different categories, such as HTML, CSS, JavaScript, React, MongoDB, and more. It also includes a dark mode toggle for enhanced user experience.
 
-![App Screenshot](./path_to_image)
+![App Screenshot](./src/assets/screenshot.png)
 
 ## Features
 
