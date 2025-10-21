@@ -1,6 +1,4 @@
-Here's a sample `README.md` for your to-do list project on GitHub:
 
-```md
 # My To-do List
 
 A simple and interactive to-do list web application where users can add, track, and categorize tasks. It allows users to manage their tasks in different categories, such as HTML, CSS, JavaScript, React, MongoDB, and more. It also includes a dark mode toggle for enhanced user experience.
@@ -85,9 +83,3 @@ For any questions or suggestions, feel free to contact me:
 - Email: yacoub133@gmail.com
 - GitHub: [Yacoub777](https://github.com/Yacoub777)
 
----
-
-© 2024 My To-do List. All rights reserved.
-```
-
-You can customize it further based on your project's specific details! Let me know if you want to make any changes.
