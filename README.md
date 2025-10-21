@@ -44,7 +44,7 @@ A simple and interactive to-do list web application where users can add, track, 
 4. Start the application:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## How to Use
